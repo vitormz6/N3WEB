@@ -1,0 +1,153 @@
+/* Estilos customizados para melhorar ainda mais a aparência da aplicação */
+
+/* Corpo da página */
+body {
+    background-color: #f8f9fa; /* cinza claro */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #343a40; /* cinza-escuro */
+}
+
+/* Navbar */
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: #0d6efd !important; /* azul do bootstrap */
+}
+
+.navbar-nav .nav-link {
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+    color: #0d6efd !important;
+}
+
+/* Dropdown do idioma */
+.dropdown-menu {
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+/* Cartões e área de conteúdo */
+.card {
+    border-radius: 10px;
+    border: none;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    padding: 2rem;
+}
+
+.card h1, .card h2 {
+    color: #343a40;
+    margin-bottom: 1.5rem;
+}
+
+.card p {
+    color: #6c757d;
+    font-size: 1.1rem;
+}
+
+/* Tabelas */
+.table {
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+.table th {
+    background-color: #0d6efd;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+.table tbody tr:hover {
+    background-color: #e9ecef;
+}
+
+/* Botões */
+.btn {
+    border-radius: 5px;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.btn-primary {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+.btn-primary:hover {
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-danger:hover {
+    background-color: #bb2d3b;
+    border-color: #b02a37;
+}
+
+/* Paginação */
+.pagination .page-item.active .page-link {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+.pagination .page-link {
+    border-radius: 50%;
+    width: 40px;
+    text-align: center;
+    line-height: 30px;
+    padding: 5px 0;
+    margin: 0 3px;
+    border: 1px solid #dee2e6;
+}
+
+.pagination .page-link:hover {
+    background-color: #e9ecef;
+}
+
+/* Alertas (flash messages) */
+.alert-info {
+    background-color: #e7f1ff;
+    border-color: #b6daff;
+    color: #084298;
+    border-radius: 5px;
+}
+
+/* Inputs e formulários */
+.form-control, .form-select {
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 0.2rem rgba(13,110,253,0.25);
+}
+
+/* Margens do container principal */
+.container {
+    max-width: 1000px;
+    margin-bottom: 2rem;
+}
+
+/* Responsividade */
+@media (max-width: 576px) {
+    .navbar-brand {
+        font-size: 1rem;
+    }
+    .card {
+        padding: 1rem;
+    }
+}

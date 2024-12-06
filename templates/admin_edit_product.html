@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block title %}{{_('Editar Produto')}}{% endblock %}
+{% block content %}
+<h2>{{_('Editar Produto')}}</h2>
+<form method="POST">
+    {{ form.csrf_token }}
+    <div class="mb-3">
+        {{ form.name.label }}
+        {{ form.name(class="form-control") }}
+    </div>
+    <button type="submit" class="btn btn-primary">{{_('Atualizar')}}</button>
+</form>
+{% endblock %}

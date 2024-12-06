@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title %}{{_('Página Inicial')}}{% endblock %}
+{% block content %}
+<div class="card shadow-sm p-4">
+    <h1 class="mb-3">{{ _('Bem-vindo à aplicação') }}</h1>
+    {% if user %}
+        <p>{{ _('Logado como') }}: <strong>{{ user.name }} ({{ user.role }})</strong></p>
+        <p>{{ _('Agora você pode navegar usando o menu acima!') }}</p>
+    {% else %}
+        <p>{{ _('Você não está logado.') }}</p>
+        <p>{{ _('Use o menu acima para logar como admin ou usuário.') }}</p>
+    {% endif %}
+</div>
+{% endblock %}

@@ -1,0 +1,217 @@
+
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2024-12-06 18:48-0300\n"
+"PO-Revision-Date: 2024-12-06 00:00+0000\n"
+"Last-Translator: \n"
+"Language: pt\n"
+"Language-Team: Portuguese\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.12.1\n"
+
+#: app.py:71 app.py:94
+msgid "Já existe um usuário com esse nome ou email."
+msgstr ""
+
+#: app.py:78
+msgid "Usuário criado com sucesso!"
+msgstr "Usuário criado com sucesso!"
+
+#: app.py:103
+msgid "Usuário atualizado com sucesso!"
+msgstr "Usuário atualizado com sucesso!"
+
+#: app.py:113
+msgid "Usuário excluído com sucesso!"
+msgstr "Usuário excluído com sucesso!"
+
+#: app.py:124
+msgid "Produto criado com sucesso!"
+msgstr "Produto criado com sucesso!"
+
+#: app.py:136
+msgid "Produto atualizado com sucesso!"
+msgstr "Produto atualizado com sucesso!"
+
+#: app.py:146
+msgid "Produto excluído com sucesso!"
+msgstr "Produto excluído com sucesso!"
+
+#: forms.py:7 templates/consult_users.html:8
+msgid "Nome"
+msgstr "Nome"
+
+#: forms.py:8
+msgid "Email"
+msgstr ""
+
+#: forms.py:9 templates/consult_users.html:9
+msgid "Papel"
+msgstr "Papel"
+
+#: forms.py:9
+#, fuzzy
+msgid "Usuário"
+msgstr "Criar Usuário"
+
+#: forms.py:9
+msgid "Admin"
+msgstr ""
+
+#: forms.py:10
+msgid "Senha"
+msgstr "Senha"
+
+#: forms.py:11 forms.py:15 templates/admin_create_product.html:11
+#: templates/admin_create_user.html:23
+msgid "Salvar"
+msgstr "Salvar"
+
+#: forms.py:14 templates/products.html:8
+msgid "Nome do Produto"
+msgstr "Nome do Produto"
+
+#: templates/admin_create_product.html:2 templates/admin_create_product.html:4
+msgid "Criar Produto"
+msgstr "Criar Produto"
+
+#: templates/admin_create_user.html:2 templates/admin_create_user.html:4
+msgid "Criar Usuário"
+msgstr "Criar Usuário"
+
+#: templates/admin_edit_product.html:2 templates/admin_edit_product.html:4
+msgid "Editar Produto"
+msgstr "Editar Produto"
+
+#: templates/admin_edit_product.html:11 templates/admin_edit_user.html:23
+msgid "Atualizar"
+msgstr "Atualizar"
+
+#: templates/admin_edit_user.html:2 templates/admin_edit_user.html:4
+msgid "Editar Usuário"
+msgstr "Editar Usuário"
+
+#: templates/admin_edit_user.html:20
+msgid "deixe em branco se não quiser alterar"
+msgstr ""
+
+#: templates/base.html:17
+msgid "Aplicação"
+msgstr "Aplicação"
+
+#: templates/base.html:25
+msgid "Home"
+msgstr ""
+
+#: templates/base.html:26 templates/products.html:2
+msgid "Produtos"
+msgstr "Produtos"
+
+#: templates/base.html:27
+msgid "Consultar Usuários"
+msgstr "Consultar Usuários"
+
+#: templates/base.html:29
+msgid "Criar Usuário (Admin)"
+msgstr "Criar Usuário (Admin)"
+
+#: templates/base.html:30
+msgid "Criar Produto (Admin)"
+msgstr "Criar Produto (Admin)"
+
+#: templates/base.html:46 templates/index.html:7 templates/users.html:7
+msgid "Logado como"
+msgstr "Logado como"
+
+#: templates/base.html:48
+#, fuzzy
+msgid "Sair"
+msgstr "Salvar"
+
+#: templates/base.html:51
+msgid "Login como Admin"
+msgstr "Login como Admin"
+
+#: templates/base.html:52
+msgid "Login como Usuário"
+msgstr "Login como Usuário"
+
+#: templates/consult_users.html:2
+#, fuzzy
+msgid "Consulta de Usuários"
+msgstr "Consultar Usuários"
+
+#: templates/consult_users.html:4
+msgid "Usuários Cadastrados"
+msgstr "Usuários Cadastrados"
+
+#: templates/index.html:2 templates/users.html:2
+msgid "Página Inicial"
+msgstr ""
+
+#: templates/index.html:5 templates/users.html:5
+msgid "Bem-vindo à aplicação"
+msgstr "Bem-vindo à aplicação"
+
+#: templates/index.html:8 templates/users.html:8
+msgid "Agora você pode navegar usando o menu acima!"
+msgstr "Agora você pode navegar usando o menu acima!"
+
+#: templates/index.html:10 templates/users.html:10
+msgid "Você não está logado."
+msgstr "Você não está logado."
+
+#: templates/index.html:11 templates/users.html:11
+#, fuzzy
+msgid "Use o menu acima para logar como admin ou usuário."
+msgstr "Use o menu acima para logar como admin ou usuário."
+
+#: templates/products.html:4
+msgid "Lista de Produtos"
+msgstr "Lista de Produtos"
+
+#: templates/products.html:10
+msgid "Ações"
+msgstr "Ações"
+
+#: templates/products.html:20
+msgid "Editar"
+msgstr "Editar"
+
+#: templates/products.html:22
+msgid "Tem certeza que deseja excluir este produto?"
+msgstr "Tem certeza que deseja excluir este produto?"
+
+#: templates/products.html:22
+msgid "Excluir"
+msgstr "Excluir"
+
+#~ msgid "Lista de Usuários"
+#~ msgstr "Lista de Usuários"
+
+#~ msgid "Nome"
+#~ msgstr "Nome"
+
+#~ msgid "Papel"
+#~ msgstr "Papel"
+
+#~ msgid "Tem certeza que deseja excluir este usuário?"
+#~ msgstr "Tem certeza que deseja excluir este usuário?"
+
+#~ msgid "Bem-vindo ao Dashboard de Admin"
+#~ msgstr "Bem-vindo ao Dashboard de Admin"
+
+#~ msgid "Consulta de usuários para todos os usuários logados"
+#~ msgstr "Consulta de usuários para todos os usuários logados"
+
+#~ msgid "Usuários"
+#~ msgstr "Usuários"
+
+#~ msgid "Admin Dashboard"
+#~ msgstr "Admin Dashboard"
+

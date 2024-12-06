@@ -1,0 +1,192 @@
+# Translations template for PROJECT.
+# Copyright (C) 2024 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2024-12-06 18:48-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.12.1\n"
+
+#: app.py:71 app.py:94
+msgid "Já existe um usuário com esse nome ou email."
+msgstr ""
+
+#: app.py:78
+msgid "Usuário criado com sucesso!"
+msgstr ""
+
+#: app.py:103
+msgid "Usuário atualizado com sucesso!"
+msgstr ""
+
+#: app.py:113
+msgid "Usuário excluído com sucesso!"
+msgstr ""
+
+#: app.py:124
+msgid "Produto criado com sucesso!"
+msgstr ""
+
+#: app.py:136
+msgid "Produto atualizado com sucesso!"
+msgstr ""
+
+#: app.py:146
+msgid "Produto excluído com sucesso!"
+msgstr ""
+
+#: forms.py:7 templates/consult_users.html:8
+msgid "Nome"
+msgstr ""
+
+#: forms.py:8
+msgid "Email"
+msgstr ""
+
+#: forms.py:9 templates/consult_users.html:9
+msgid "Papel"
+msgstr ""
+
+#: forms.py:9
+msgid "Usuário"
+msgstr ""
+
+#: forms.py:9
+msgid "Admin"
+msgstr ""
+
+#: forms.py:10
+msgid "Senha"
+msgstr ""
+
+#: forms.py:11 forms.py:15 templates/admin_create_product.html:11
+#: templates/admin_create_user.html:23
+msgid "Salvar"
+msgstr ""
+
+#: forms.py:14 templates/products.html:8
+msgid "Nome do Produto"
+msgstr ""
+
+#: templates/admin_create_product.html:2 templates/admin_create_product.html:4
+msgid "Criar Produto"
+msgstr ""
+
+#: templates/admin_create_user.html:2 templates/admin_create_user.html:4
+msgid "Criar Usuário"
+msgstr ""
+
+#: templates/admin_edit_product.html:2 templates/admin_edit_product.html:4
+msgid "Editar Produto"
+msgstr ""
+
+#: templates/admin_edit_product.html:11 templates/admin_edit_user.html:23
+msgid "Atualizar"
+msgstr ""
+
+#: templates/admin_edit_user.html:2 templates/admin_edit_user.html:4
+msgid "Editar Usuário"
+msgstr ""
+
+#: templates/admin_edit_user.html:20
+msgid "deixe em branco se não quiser alterar"
+msgstr ""
+
+#: templates/base.html:17
+msgid "Aplicação"
+msgstr ""
+
+#: templates/base.html:25
+msgid "Home"
+msgstr ""
+
+#: templates/base.html:26 templates/products.html:2
+msgid "Produtos"
+msgstr ""
+
+#: templates/base.html:27
+msgid "Consultar Usuários"
+msgstr ""
+
+#: templates/base.html:29
+msgid "Criar Usuário (Admin)"
+msgstr ""
+
+#: templates/base.html:30
+msgid "Criar Produto (Admin)"
+msgstr ""
+
+#: templates/base.html:46 templates/index.html:7 templates/users.html:7
+msgid "Logado como"
+msgstr ""
+
+#: templates/base.html:48
+msgid "Sair"
+msgstr ""
+
+#: templates/base.html:51
+msgid "Login como Admin"
+msgstr ""
+
+#: templates/base.html:52
+msgid "Login como Usuário"
+msgstr ""
+
+#: templates/consult_users.html:2
+msgid "Consulta de Usuários"
+msgstr ""
+
+#: templates/consult_users.html:4
+msgid "Usuários Cadastrados"
+msgstr ""
+
+#: templates/index.html:2 templates/users.html:2
+msgid "Página Inicial"
+msgstr ""
+
+#: templates/index.html:5 templates/users.html:5
+msgid "Bem-vindo à aplicação"
+msgstr ""
+
+#: templates/index.html:8 templates/users.html:8
+msgid "Agora você pode navegar usando o menu acima!"
+msgstr ""
+
+#: templates/index.html:10 templates/users.html:10
+msgid "Você não está logado."
+msgstr ""
+
+#: templates/index.html:11 templates/users.html:11
+msgid "Use o menu acima para logar como admin ou usuário."
+msgstr ""
+
+#: templates/products.html:4
+msgid "Lista de Produtos"
+msgstr ""
+
+#: templates/products.html:10
+msgid "Ações"
+msgstr ""
+
+#: templates/products.html:20
+msgid "Editar"
+msgstr ""
+
+#: templates/products.html:22
+msgid "Tem certeza que deseja excluir este produto?"
+msgstr ""
+
+#: templates/products.html:22
+msgid "Excluir"
+msgstr ""
+

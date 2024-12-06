@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block title %}{{_('Editar Usuário')}}{% endblock %}
+{% block content %}
+<h2>{{_('Editar Usuário')}}</h2>
+<form method="POST">
+    {{ form.csrf_token }}
+    <div class="mb-3">
+        {{ form.name.label }}
+        {{ form.name(class="form-control") }}
+    </div>
+    <div class="mb-3">
+        {{ form.email.label }}
+        {{ form.email(class="form-control") }}
+    </div>
+    <div class="mb-3">
+        {{ form.role.label }}
+        {{ form.role(class="form-select") }}
+    </div>
+    <div class="mb-3">
+        {{ form.password.label }} ({{_('deixe em branco se não quiser alterar')}})
+        {{ form.password(class="form-control") }}
+    </div>
+    <button type="submit" class="btn btn-primary">{{_('Atualizar')}}</button>
+</form>
+{% endblock %}
