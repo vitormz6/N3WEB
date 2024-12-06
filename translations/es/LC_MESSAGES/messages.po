@@ -16,7 +16,8 @@ msgstr ""
 
 #: app.py:71 app.py:94
 msgid "Já existe um usuário com esse nome ou email."
-msgstr ""
+msgstr "
+Ya existe un usuario con ese nombre o correo electrónico."
 
 #: app.py:78
 msgid "Usuário criado com sucesso!"
